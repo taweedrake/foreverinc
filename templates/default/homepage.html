@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block content%}
+<style>
+    .blog{
+        padding: 1rem;
+        text-indent: 2rem;
+        word-break: normal;
+    }
+</style>
+<div class="blog">
+    <h3>Welcome to FOREVER</h3>
+    <p>Forever is a web-application in making being run by Forever Inc.</p>
+    <p>Every user is prompted to create an account and verify it immediately inorder to activate it</p>
+    <p>In case of errors during account registration, please reach out to us through <a href="mailto:foreverinc.dev@gmail.com">dev@ForeverInc.</a></p>
+    <img src="{%static 'demo.jpg'%}" width="100%" height="100%" style="object-fit:cover ;" alt="">
+    <p>Access your current chats by clicking on the green chat icon inside your account and view the followers list by clicking on the left users icon </p>
+</div>
+{%endblock%}
